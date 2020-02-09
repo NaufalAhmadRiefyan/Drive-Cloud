@@ -1,0 +1,274 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* Sintaks CSS */
+/* Login CSS */
+body
+{
+    background-image: url(../img/cheap.png);
+    background-repeat: no-repeat;
+    background-position: 600px 0;
+    font-family: hind;
+}
+
+
+.kotak
+{
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 0px solid rgb(221, 216, 209);
+    width: 350px;
+    border-radius: 35px;
+    position: relative;
+    background-color: white;
+    box-shadow: -9px 9px 6px rgb(221, 216, 209);
+}
+
+.Logo
+{
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.header .Login
+{
+    font: 36px/28px arial;
+    margin-left: 130px;
+    margin-top: 5px;
+    font-family: hind;
+    font-weight: bold;
+}
+
+.form .input
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 250px;
+    border-radius: 10px ;
+    font-family: hind;
+}
+
+
+
+.form-group a
+{
+    margin-left: 52px;
+    margin-top: 30px;
+    display: inline-block;
+    color: #375FEF;
+    outline: none;
+    text-decoration: none;
+    font-family: hind;
+}
+
+.signin-btn-lg
+{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 84%;
+    background-color: rgb(47, 115, 216);
+    transition: .5s;
+    color: #EBE8E8;
+    font-family: hind;
+}
+
+.signin-btn-lg:hover
+{
+    background-color: rgb(4, 80, 196); 
+    transition: .5s;
+}
+/* End Login CSS */
+/*  -------------------------------------------- */
+/* Signup CSS */
+
+.kotak-sign
+{
+    margin-left: 100px;
+    margin-top: 100px;
+    border: 0px solid rgb(221, 216, 209);
+    width: 700px;
+    border-radius: 35px;
+    background-color: white;
+    box-shadow: -9px 9px 6px rgb(221, 216, 209);
+}
+
+.title, p
+{
+    margin-left: 50px;
+}
+.header .title
+{
+    font-size: 30px;
+    
+}
+
+.header p
+{
+    color: #5F5D5D;
+}
+
+.form
+{
+    float: left;
+}
+
+.form .full-name
+{
+    margin-left: 50px;
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 10px ;
+}
+
+.form .email
+{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 320px;
+    border-radius: 10px ; 
+    z-index: -9999;  
+}
+
+.text
+{
+ margin-top: 5px;
+}
+
+.password
+{
+    margin-top: -10px;
+}
+.password-input
+{
+    box-sizing: border-box;
+    margin-left: 65px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 10px ;
+} 
+
+.confirm-input
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 10px ;
+}
+
+
+.icon-back
+{
+   background-repeat: no-repeat;
+   width: 250px;
+   height: 250px; 
+   margin-left: 30px;
+}
+
+.form-group .signin
+{
+    width: 100px;
+    position: relative;
+    left: 160px;
+    background-color: rgb(22, 96, 207);
+    transition: .5s;
+    color: #EBE8E8;
+    font-family: hind;   
+}
+
+.form-group .signin:hover
+{
+    background-color: rgb(26, 116, 250);
+    transition: .5s;
+}
+
+.form-group .create
+{
+    color: rgb(63, 93, 139);
+    transition: .5s;
+}
+
+.form-group .create:hover
+{
+    transition: .5s;
+    color: rgb(16, 43, 165);
+}
+
+/* end Signup CSS */
+/*  -------------------------------------------- */
+/* index CSS */
+
+/* end index CSS */
+
+/* end sintaks CSS */
+
+
+/* Micro Clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+/* End */
