@@ -25,7 +25,7 @@ class User extends CI_Controller
 
     public function upload()
     {
-        $config['upload_path'] = './asset/foto/';
+        $config['upload_path'] = './asset/upload/';
         $config['allowed_types'] = 'gif|jpg|jpeg|php|png|pdf|doc|docx';
         $config['max_size'] = 0;
 
@@ -67,7 +67,7 @@ class User extends CI_Controller
             $fileInfo = $this->User_model->getRows(array('id_drive' => $id_drive));
 
             //file path
-            $file = './asset/foto/' . $fileInfo['file'];
+            $file = './asset/upload/' . $fileInfo['file'];
 
             //download file 
             force_download($file, NULL);
